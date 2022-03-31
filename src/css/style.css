@@ -13,22 +13,33 @@ header{
   color: aliceblue;
 }
 .menu{
-  
-  display: flex;
   justify-content: space-between;
   width: 100%;
 }
+
+.menu li{
+  display: inline;
+  
+  
+}
+
+
 header nav ul li{
-  padding: 20px;
-  width: auto;
+ 
+  padding: 30px;
   display: inline;
 }
+
 header nav ul li a{
 text-decoration: none;
 display: inline-block;
-color: aliceblue;
+color: aliceblue
 }
 
-header nav ul li a:hover{
+header nav ul li:hover{
+  background-color: rgb(6, 63, 114);
+  transition: background 0.4s;
   
   }
+  
+  
