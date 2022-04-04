@@ -25,11 +25,13 @@ width: auto;
 
 nav {
   display: flex;
+  position: fixed;
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #2e2523;
   height: 8vh;
+  width: 100%;
   
 }
 
