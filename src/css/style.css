@@ -25,20 +25,73 @@ width: auto;
 
 nav {
   display: flex;
-  position: fixed;
+  
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #2e2523;
+  background: #0b0542;
   height: 8vh;
   width: 100%;
+ 
   
 }
 
-main {
-  background: url("bg.jpg") no-repeat center center;
-  background-size: cover;
-  height: 92vh;
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  
+  
+}
+.banner h1{
+  padding: 20px;
+  font-size: 50px;
+}
+.banner p{
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.l-cards .c-card .c-card__image img{
+  width: 300px;
+  height: auto;
+  
+}
+
+
+
+.u-text-placeholder {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  height: 9px;
+  width: 50px;
+}
+
+.l-cards {
+
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 300px);
+   grid-template-columns: repeat(auto-fit, 300px); 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  justify-items: center;
+  padding: 30px;
+}
+
+.c-card {
+  background-color: #909396;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  
+  
 }
 
 .nav-list {
